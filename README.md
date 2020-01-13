@@ -8,6 +8,6 @@ Gofetch can be used on both Linux and Darwin (macOS).
 
 Installing gofetch is simple.  Download the binary for your operating system from [here](https://github.com/Chiphyr/gofetch/releases), being gofetch-linux for Linux, and gofetch-darwin for Darwin (macOS).
 
-Once the binary is downloaded, simply move it into a folder included in the `PATH`.  This could be `/usr/local/bin` (macOS) or `/usr/bin` (Linux), etc.
+Once the binary is downloaded, simply rename it to `gofetch` and move it into a folder included in the `PATH`.  This could be `/usr/local/bin` (macOS) or `/usr/bin` (Linux), etc.
 
 After moving it into `PATH`, you should be able to use `gofetch` after a shell restart.
