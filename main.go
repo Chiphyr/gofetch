@@ -81,19 +81,16 @@ Temperature: %s
 	fmt.Println(res)
 }
 
-func rb(s string) (r aurora.Value) {
-	r = aurora.Bold(aurora.Red(s))
-	return
+func rb(s string) aurora.Value {
+	return aurora.Bold(aurora.Red(s))
 }
 
-func gb(s string) (r aurora.Value) {
-	r = aurora.Bold(aurora.Green(s))
-	return
+func gb(s string) aurora.Value {
+	return aurora.Bold(aurora.Green(s))
 }
 
-func bb(s string) (r aurora.Value) {
-	r = aurora.Bold(aurora.Blue(s))
-	return
+func bb(s string) aurora.Value {
+	return aurora.Bold(aurora.Blue(s))
 }
 
 func throw(e error) {
